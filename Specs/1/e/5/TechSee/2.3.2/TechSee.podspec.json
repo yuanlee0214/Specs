@@ -55,9 +55,6 @@
     "OpenTok": [
       "= 2.15.2"
     ],
-    "lottie-ios": [
-      "= 2.5.3"
-    ],
     "CocoaLumberjack": [
 
     ]

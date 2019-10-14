@@ -36,6 +36,12 @@
     ],
     "Qiniu": [
 
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "JSONModel": [
+
     ]
   },
   "subspecs": [
@@ -78,8 +84,17 @@
       "source_files": "Utilitie/BRPickerView/**/*.{h,m}"
     },
     {
+      "name": "BaseJsonModel",
+      "source_files": "Utilitie/BaseJsonModel/**/*.{h,m}"
+    },
+    {
       "name": "TriangleView",
       "source_files": "Utilitie/TriangleView/**/*.{h,m}"
+    },
+    {
+      "name": "MessageHUD",
+      "source_files": "Utilitie/MessageHUD/**/*.{h,m}",
+      "resources": "Utilitie/MessageHUD/**/*.bundle"
     }
   ]
 }

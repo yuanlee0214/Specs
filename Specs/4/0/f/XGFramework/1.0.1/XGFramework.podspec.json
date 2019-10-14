@@ -21,7 +21,28 @@
     {
       "name": "UI",
       "public_header_files": "XGKit/UI/*.h",
-      "source_files": "XGKit/UI/*.{h,m}"
+      "source_files": "XGKit/UI/*.{h,m}",
+      "dependencies": {
+        "SVProgressHUD": [
+
+        ]
+      }
+    },
+    {
+      "name": "Network",
+      "public_header_files": "XGKit/Network/*.h",
+      "source_files": "XGKit/Network/*.{h,m}",
+      "dependencies": {
+        "AFNetworking": [
+
+        ],
+        "ReactiveObjC": [
+
+        ],
+        "YYModel": [
+
+        ]
+      }
     }
   ]
 }

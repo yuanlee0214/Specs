@@ -28,12 +28,6 @@
     "UIImage+Additions": [
       "~> 2.1.0"
     ],
-    "FMDB": [
-
-    ],
-    "Colours": [
-      "~> 5.13.0"
-    ],
     "Masonry": [
       "~> 1.0.2"
     ],
@@ -52,23 +46,11 @@
     "MJExtension": [
 
     ],
-    "YTKNetwork": [
-
-    ],
-    "pop": [
-      "~> 1.0"
-    ],
     "DZNEmptyDataSet": [
-
-    ],
-    "JVFloatLabeledTextField": [
 
     ],
     "dsBridge": [
       "~> 3.0.2"
-    ],
-    "SSZipArchive": [
-      "~> 2.2.2"
     ],
     "Reachability": [
       "~> 3.2"
@@ -78,6 +60,9 @@
     ],
     "ReactiveObjC": [
 
+    ],
+    "Colours": [
+      "~> 5.13.0"
     ]
   }
 }

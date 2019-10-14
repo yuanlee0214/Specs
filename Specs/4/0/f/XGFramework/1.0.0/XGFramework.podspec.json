@@ -16,5 +16,33 @@
     "tag": "1.0.0"
   },
   "source_files": "XGKit/*.h",
-  "public_header_files": "XGKit/XGKit.h"
+  "public_header_files": "XGKit/XGKit.h",
+  "subspecs": [
+    {
+      "name": "UI",
+      "public_header_files": "XGKit/UI/*.h",
+      "source_files": "XGKit/UI/*.{h,m}",
+      "dependencies": {
+        "SVProgressHUD": [
+
+        ]
+      }
+    },
+    {
+      "name": "Network",
+      "public_header_files": "XGKit/Network/*.h",
+      "source_files": "XGKit/Network/*.{h,m}",
+      "dependencies": {
+        "AFNetworking": [
+
+        ],
+        "ReactiveObjC": [
+
+        ],
+        "YYModel": [
+
+        ]
+      }
+    }
+  ]
 }

@@ -12,7 +12,7 @@
     "Faktor.io": "faktormobilesdk@faktor.io"
   },
   "source": {
-    "http": "https://faktor-mobile-sdk.s3-eu-west-1.amazonaws.com/releases/iOS/2.2.24/FaktorMobileSDK.zip"
+    "http": "https://sdk.mobile.faktor.io/releases/iOS/2.2.24/FaktorMobileSDK.zip"
   },
   "platforms": {
     "ios": "9.0"

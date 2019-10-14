@@ -39,6 +39,9 @@
     ],
     "MBProgressHUD": [
 
+    ],
+    "JSONModel": [
+
     ]
   },
   "subspecs": [
@@ -79,6 +82,10 @@
     {
       "name": "BRPickerView",
       "source_files": "Utilitie/BRPickerView/**/*.{h,m}"
+    },
+    {
+      "name": "BaseJsonModel",
+      "source_files": "Utilitie/BaseJsonModel/**/*.{h,m}"
     },
     {
       "name": "TriangleView",

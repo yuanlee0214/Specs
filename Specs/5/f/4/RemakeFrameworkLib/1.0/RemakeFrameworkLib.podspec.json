@@ -19,6 +19,11 @@
     "tag": "1.0"
   },
   "resources": "RemakeFrameworkLib/RemakeFrameworkPlist.plist",
+  "resource_bundles": {
+    "RemakeFrameworkBundle": [
+      "RemakeFrameworkLib/**/*.{storyboard,xib}"
+    ]
+  },
   "source_files": "RemakeFrameworkLib/*.{h,m}",
   "frameworks": [
     "UIKit",

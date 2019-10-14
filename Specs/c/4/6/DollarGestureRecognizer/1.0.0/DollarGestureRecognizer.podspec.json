@@ -8,11 +8,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Your Name": "d.cardona.rojas@gmail.com"
+    "Daniel Cardona Rojas": "d.cardona.rojas@gmail.com"
   },
   "swift_versions": "5.0",
   "platforms": {
-    "ios": "9.1"
+    "ios": "12.0"
   },
   "requires_arc": true,
   "source": {

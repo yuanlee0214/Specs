@@ -19,9 +19,13 @@
   "prefix_header_file": "HZIMManger/PrefixHeader.pch",
   "default_subspecs": "Code",
   "resources": "HZIMManger/**/*.{bundle,xib}",
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
   "dependencies": {
     "TXIMSDK_iOS": [
-
+      "~> 4.4.900"
     ],
     "ReactiveObjC": [
 
@@ -49,6 +53,12 @@
     ],
     "IQKeyboardManager": [
 
+    ],
+    "YYImage": [
+
+    ],
+    "YBImageBrowser": [
+      "~> 3.0.4"
     ]
   },
   "subspecs": [
