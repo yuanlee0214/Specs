@@ -59,6 +59,10 @@
     {
       "name": "WebView",
       "source_files": "ZSBaseUtil/Classes/WebView/**/*"
+    },
+    {
+      "name": "ViewAnimation",
+      "source_files": "ZSBaseUtil/Classes/ViewAnimation/**/*"
     }
   ]
 }

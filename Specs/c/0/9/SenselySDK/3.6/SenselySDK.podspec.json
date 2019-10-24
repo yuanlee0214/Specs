@@ -12,7 +12,7 @@
     "Name": "Sense.ly"
   },
   "source": {
-    "http": "https://s3-us-west-1.amazonaws.com/sensely-sdk-distribution/3.6/Chat_sensely.zip"
+    "http": "https://sensely-sdk-distribution.s3-us-west-1.amazonaws.com/3.6_Xcode11_tools/Chat_sensely.zip"
   },
   "social_media_url": "https://twitter.com/Sense_ly",
   "platforms": {

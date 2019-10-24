@@ -48,8 +48,8 @@
     "FBSDKCoreKit.framework"
   ],
   "dependencies": {
-    "FBSDKCoreKit": [
-      "5.4.0"
+    "FBSDKCoreKit/Basics": [
+
     ]
   }
 }

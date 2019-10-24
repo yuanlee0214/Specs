@@ -9,10 +9,10 @@
     "file": "LICENSE"
   },
   "authors": {
-    "rajtharan": "tharanit99@gmail.com"
+    "rajtharan": "rajtharan@squareoffnow.com"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
   "swift_versions": "5.0",
   "source": {
@@ -35,6 +35,5 @@
 
     ]
   },
-  "swift_version": "5.0",
-  "deprecated": true
+  "swift_version": "5.0"
 }

@@ -34,5 +34,6 @@
   ],
   "resources": "AlipaySDK/AlipaySDK.bundle",
   "vendored_frameworks": "AlipaySDK/AlipaySDK.framework",
-  "requires_arc": true
+  "requires_arc": true,
+  "static_framework": true
 }
