@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://togass@tde.sktelecom.com/stash/scm/ssip/ssisdk_ios.git",
-    "tag": "0.1.7"
+    "branch": "0.1.7"
   },
   "platforms": {
     "ios": "10.0"
