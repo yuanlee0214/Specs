@@ -1,8 +1,8 @@
 {
   "name": "HRLivingBodyDetection",
   "version": "1.0.0",
-  "summary": "A short description of HRLivingBodyDetection.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "银行活体检测包以及面签和电签的第三方依赖等.",
+  "description": "银行活体检测包以及面签和电签的第三方依赖。版本1.0.0",
   "homepage": "https://github.com/bizhanlu/HRLivingBodyDetection",
   "license": {
     "type": "MIT",
@@ -28,6 +28,12 @@
     "AVFoundation"
   ],
   "dependencies": {
+    "Toast": [
+
+    ],
+    "AFNetworking": [
+
+    ],
     "SDWebImage": [
 
     ],

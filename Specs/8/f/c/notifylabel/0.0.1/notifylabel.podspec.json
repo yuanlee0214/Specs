@@ -2,16 +2,16 @@
   "name": "notifylabel",
   "version": "0.0.1",
   "summary": "A simple pop-ups label",
-  "homepage": "https://github.com/tourcoder/notifylabel",
+  "homepage": "https://github.com/hzb/notifylabel",
   "license": "MIT",
   "authors": {
-    "tourcoder": "hello@tourcoder.com"
+    "hb": "hb@tourcoder.com"
   },
   "platforms": {
     "ios": null
   },
   "source": {
-    "git": "https://github.com/tourcoder/notifylabel.git",
+    "git": "https://github.com/hzb/notifylabel.git",
     "tag": "0.0.1"
   },
   "source_files": "notifylabel/*.{h,m}",

@@ -23,6 +23,11 @@
   "vendored_frameworks": "1.0.0/CBVPaySDK.framework",
   "requires_arc": true,
   "swift_versions": "5.0",
+  "dependencies": {
+    "Sift": [
+
+    ]
+  },
   "xcconfig": {
     "SWIFT_VERSION": "5.0"
   },

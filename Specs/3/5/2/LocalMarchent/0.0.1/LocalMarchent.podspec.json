@@ -21,10 +21,5 @@
   "requires_arc": true,
   "ios": {
     "vendored_frameworks": "LocalMarchent/JioLocal.framework"
-  },
-  "dependencies": {
-    "moa": [
-
-    ]
   }
 }

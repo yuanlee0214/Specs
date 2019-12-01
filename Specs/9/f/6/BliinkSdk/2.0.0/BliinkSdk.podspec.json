@@ -18,6 +18,6 @@
   },
   "source_files": "**/*.{h}",
   "ios": {
-    "vendored_frameworks": "BliinkSdk/BliinkSdk.framework"
+    "vendored_frameworks": "BliinkSdk.framework"
   }
 }
