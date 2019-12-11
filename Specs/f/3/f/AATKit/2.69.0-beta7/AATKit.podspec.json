@@ -13,12 +13,12 @@
   },
   "social_media_url": "http://twitter.com/addapptr_gmbh",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "requires_arc": false,
   "source": {
     "http": "https://ios-sdk.aatkit.com/aatkit-2.69.0-beta7.zip",
-    "sha256": "4be82afdc544cc42856b4d50a492322648bcfaca0bb0e72b65eb123f4a899ef3"
+    "sha256": "a512ad1a3bb863446a943b0ff9c8ec3e46a36206f6eb34559b9f683c49bd9930"
   },
   "default_subspecs": "Default",
   "subspecs": [
@@ -124,7 +124,7 @@
 
         ],
         "FBAudienceNetwork": [
-          "4.28.1"
+          "5.6.0"
         ]
       }
     },

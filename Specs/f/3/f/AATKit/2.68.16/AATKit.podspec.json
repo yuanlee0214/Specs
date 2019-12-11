@@ -18,7 +18,7 @@
   "requires_arc": false,
   "source": {
     "http": "https://ios-sdk.aatkit.com/aatkit-2.68.16.zip",
-    "sha256": "5bc1919d4b074035f34368743e9314a8900676a2317cea03dd15fdd203123ee4"
+    "sha256": "54d4da1113bc07a0b7f83ecebeee407b7947afdadee902749aacd59b38758bcd"
   },
   "default_subspecs": "Default",
   "subspecs": [
