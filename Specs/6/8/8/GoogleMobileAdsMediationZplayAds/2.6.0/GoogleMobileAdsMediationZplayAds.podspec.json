@@ -23,5 +23,6 @@
     "Google-Mobile-Ads-SDK": [
 
     ]
-  }
+  },
+  "static_framework": true
 }

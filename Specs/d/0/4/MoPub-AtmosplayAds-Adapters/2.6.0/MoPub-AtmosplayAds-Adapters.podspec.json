@@ -23,5 +23,6 @@
     "mopub-ios-sdk": [
 
     ]
-  }
+  },
+  "static_framework": true
 }

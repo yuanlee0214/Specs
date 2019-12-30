@@ -21,7 +21,7 @@
     "frameworks": "AuthenticationServices",
     "dependencies": {
       "Gamebase": [
-        "~> 2.6"
+        "~> 2.6.1"
       ]
     }
   },

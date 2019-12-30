@@ -17,7 +17,7 @@
   },
   "swift_versions": "5.0.1",
   "source": {
-    "http": "https://bitbucket.org/livelike/livelike-public-downloads/downloads/LiveLike_IOSSDK_v1_3.zip"
+    "http": "https://s3.amazonaws.com/livelike-artifacts/ios/cocoapod_builds/LiveLike_IOSSDK_1.3.zip"
   },
   "source_files": [
     "LiveLikeSDK/Sources/Common/**/*.{swift}",

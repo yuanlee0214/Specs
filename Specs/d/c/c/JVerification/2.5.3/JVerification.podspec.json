@@ -6,7 +6,7 @@
   "homepage": "http://www.jiguang.cn/",
   "license": "MIT",
   "authors": {
-    "jpush": "380108184@qq.com"
+    "JPush": "support@jpush.cn"
   },
   "source": {
     "http": "https://sdkfiledl.jiguang.cn/cocoapods/jverification/JVerification-iOS-2.5.3.zip"
@@ -33,7 +33,7 @@
     "WebKit"
   ],
   "libraries": [
-    "sqlite3",
+    "sqlite3.0",
     "z",
     "resolv",
     "c++.1"
@@ -43,7 +43,8 @@
   "vendored_libraries": "*.a",
   "dependencies": {
     "JCore": [
-      "~> 2.0.0"
+      ">= 1.2.6",
+      "< 3.0.0"
     ]
   },
   "xcconfig": {
