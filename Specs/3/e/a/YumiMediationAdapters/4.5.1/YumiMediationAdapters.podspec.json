@@ -9,7 +9,7 @@
     "zplay sdk team": "ad-client@zplay.cn"
   },
   "source": {
-    "http": "https://adsdk.yumimobi.com/iOS/YumiMediationAdapters/4.5.1_2019122601.tar.bz2"
+    "http": "https://adsdk.yumimobi.com/iOS/YumiMediationAdapters/4.5.1_2020021901.tar.bz2"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,13 +21,13 @@
   },
   "subspecs": [
     {
-      "name": "ZplayAds",
+      "name": "AtmosplayAds",
       "ios": {
-        "vendored_frameworks": "YumiMediationZplayAds/YumiMediationZplayAds.framework"
+        "vendored_frameworks": "YumiMediationAtmosplayAds/YumiMediationAtmosplayAds.framework"
       },
       "dependencies": {
-        "PlayableAds": [
-          "2.6.0"
+        "AtmosplayAds": [
+          "3.0.1"
         ]
       }
     },
@@ -117,7 +117,7 @@
       },
       "dependencies": {
         "YumiGDT": [
-          "4.10.19"
+          "4.11.3"
         ]
       },
       "resources": "YumiMediationGDT/Resources/YumiMediationGDT.bundle"
@@ -173,7 +173,7 @@
       },
       "dependencies": {
         "YumiMintegral": [
-          "5.7.1"
+          "5.8.8"
         ]
       }
     },
@@ -196,17 +196,6 @@
       "dependencies": {
         "YumiInneractiveAdSDK": [
           "7.4.1"
-        ]
-      }
-    },
-    {
-      "name": "BytedanceAds",
-      "ios": {
-        "vendored_frameworks": "YumiMediationBytedanceAds/YumiMediationBytedanceAds.framework"
-      },
-      "dependencies": {
-        "YumiBytedanceAds": [
-          "2.4.6.7"
         ]
       }
     },

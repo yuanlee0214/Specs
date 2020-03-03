@@ -19,9 +19,12 @@
     "ios": "8.0"
   },
   "source_files": [
-    "WCCategory/Classes/*",
-    "WCCategory/Classes/Foundation/*",
-    "WCCategory/Classes/UIKit/*"
+    "WCCategory/Classes/*.h",
+    "WCCategory/Classes/*.m",
+    "WCCategory/Classes/Foundation/*.h",
+    "WCCategory/Classes/Foundation/*.m",
+    "WCCategory/Classes/UIKit/*.h",
+    "WCCategory/Classes/UIKit/*.m"
   ],
   "public_header_files": [
     "WCCategory/Classes/*.h",

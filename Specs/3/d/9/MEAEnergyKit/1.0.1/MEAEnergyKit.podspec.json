@@ -14,7 +14,7 @@
     "ios": "10.0"
   },
   "source": {
-    "git": "https://gitlab.mapboss.co.th/customers/MEA/energy-sdk/ios-energy-sdk.git",
+    "git": "https://gitlab.com/mea-energy-sdk/ios-energy-sdk.git",
     "tag": "v1.0.1"
   },
   "vendored_frameworks": "Frameworks/1.0.1/MEAEnergyKit.framework",

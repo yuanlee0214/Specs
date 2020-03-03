@@ -16,6 +16,6 @@
     "http": "https://bitbucket.org/webivo/apptegrity-ios/downloads/Apptegrity-0.0.1.zip"
   },
   "ios": {
-    "vendored_frameworks": "Apptegrity.framework"
+    "vendored_frameworks": "**/Apptegrity.framework"
   }
 }

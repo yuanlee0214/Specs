@@ -37,12 +37,6 @@
   ],
   "libraries": "c++",
   "dependencies": {
-    "DeviceUtil": [
-      "~> 4.0.2"
-    ],
-    "VPSocketIO": [
-
-    ],
     "TechSeeWebRTC": [
       "= 1.1"
     ],

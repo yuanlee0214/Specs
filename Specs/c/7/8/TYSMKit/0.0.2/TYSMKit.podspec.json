@@ -20,25 +20,7 @@
   },
   "source_files": "TYSMKit/Classes/**/*",
   "dependencies": {
-    "AFNetworking": [
-
-    ],
-    "FLEX": [
-
-    ],
-    "UITableView+FDTemplateLayoutCell": [
-
-    ],
-    "YYKit": [
-
-    ],
-    "Masonry": [
-
-    ],
-    "SDWebImage": [
-
-    ],
-    "MBProgressHUD": [
+    "CocoaLumberjack": [
 
     ]
   }

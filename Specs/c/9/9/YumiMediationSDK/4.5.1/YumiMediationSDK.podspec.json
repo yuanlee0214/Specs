@@ -36,7 +36,7 @@
     "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
   },
   "source": {
-    "http": "https://adsdk.yumimobi.com/iOS/YumiMediationSDK/4.5.1_2019122601.tar.bz2"
+    "http": "https://adsdk.yumimobi.com/iOS/YumiMediationSDK/4.5.1_2020021901.tar.bz2"
   },
   "platforms": {
     "ios": "8.0"

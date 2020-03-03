@@ -13,7 +13,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "swift_versions": "4.2",
+  "swift_versions": "5.1",
   "source": {
     "git": "https://github.com/sirl-io/ios_sdk.git",
     "tag": "1.1.19"
@@ -32,7 +32,31 @@
         "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2",
         "SWIFT_INCLUDE_PATHS": "$(PODS_ROOT)/SIRL/Core/libs/include"
       }
+    },
+    {
+      "name": "Map",
+      "vendored_frameworks": "Map/SIRLMap.framework",
+      "resource_bundles": {
+        "SIRL_MapSDK": [
+          "Resource/*.xcassets"
+        ]
+      },
+      "requires_arc": true,
+      "dependencies": {
+        "SIRL/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Retail",
+      "vendored_frameworks": "Retail/SIRLRetail.framework",
+      "dependencies": {
+        "SIRL/Map": [
+
+        ]
+      }
     }
   ],
-  "swift_version": "4.2"
+  "swift_version": "5.1"
 }

@@ -12,7 +12,7 @@
     "suchangjie2000@163.com": "suchangjie2000@163.com"
   },
   "source": {
-    "svn": "https://10.12.10.205/svn/mobile/originalM/ios/FAKit",
+    "svn": "http://suchangjie.vicp.io/svn/originalM/FAKit",
     "tag": "0.1.1"
   },
   "platforms": {

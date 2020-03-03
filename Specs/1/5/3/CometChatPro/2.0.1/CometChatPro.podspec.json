@@ -12,7 +12,7 @@
   },
   "summary": "CometChatPro is a platform for integrating voice, video & text messaging experiences into your websites, web apps and mobile apps",
   "source": {
-    "http": "http://library.cometchat.io/ios/v2.0/xcode11.2.1/CometChatPro_2.0.0.zip"
+    "http": "https://library.cometchat.io/ios/v2.0/xcode11.2.1/CometChatPro_v2.0.6.zip"
   },
   "source_files": "CometChatPro.framework/Headers/*.{h,m,swift}",
   "libraries": [

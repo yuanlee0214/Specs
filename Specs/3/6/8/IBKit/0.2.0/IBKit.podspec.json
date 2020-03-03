@@ -12,6 +12,7 @@
     "tag": "0.2.0"
   },
   "source_files": "Sources/**/*.swift",
+  "weak_frameworks": "SwiftUI",
   "platforms": {
     "ios": "11.0"
   }

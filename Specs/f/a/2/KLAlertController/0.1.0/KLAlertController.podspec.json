@@ -15,13 +15,14 @@
     "git": "https://github.com/xiamoon/KLAlertController.git",
     "tag": "0.1.0"
   },
+  "requires_arc": true,
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "KLAlertController/Classes/**/*",
   "dependencies": {
     "Masonry": [
 
     ]
-  }
+  },
+  "source_files": "KLAlertController/Classes/**/*"
 }

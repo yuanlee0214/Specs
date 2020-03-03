@@ -26,7 +26,10 @@
     {
       "name": "Core",
       "source_files": "Sources/TinyNetworking/*.swift",
-      "frameworks": "Combine"
+      "frameworks": [
+        "Foundation",
+        "Combine"
+      ]
     },
     {
       "name": "RxSwift",
