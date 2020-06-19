@@ -2,7 +2,7 @@
   "name": "YNCommonTools",
   "version": "1.0.6",
   "license": "MIT",
-  "summary": "适配ios13",
+  "summary": "包含实用分类，DIY上下拉刷新加载，改版后的RT导航栏以及通用Base",
   "homepage": "https://github.com/JD0327/YNCommonTools",
   "authors": {
     "GentlemanJ": "1011001397@qq.com"
@@ -16,7 +16,15 @@
     "ios": "8.0"
   },
   "resources": "YNCommonTools/resources.bundle",
-  "source_files": "YNCommonTools/YNCommonTools.h",
+  "source_files": [
+    "YNCommonTools/YNCommonTools.h",
+    "YNCommonTools/YNCommonMethod.h"
+  ],
+  "dependencies": {
+    "MJRefresh": [
+
+    ]
+  },
   "subspecs": [
     {
       "name": "NavigationController",
@@ -31,24 +39,60 @@
     },
     {
       "name": "Catetory",
-      "source_files": "YNCommonTools/UIImage+YNExtension.{h,m}",
-      "public_header_files": "YNCommonTools/UIImage+YNExtension.h"
+      "source_files": [
+        "YNCommonTools/UIImage+YNExtension.{h,m}",
+        "YNCommonTools/UIButton+YNExtension.{h,m}",
+        "YNCommonTools/NSDate+YNExtension.{h,m}",
+        "YNCommonTools/UIView+YNExtension.{h,m}"
+      ],
+      "public_header_files": [
+        "YNCommonTools/UIImage+YNExtension.h",
+        "YNCommonTools/UIButton+YNExtension.h",
+        "YNCommonTools/NSDate+YNExtension.h",
+        "YNCommonTools/UIView+YNExtension.h"
+      ]
     },
     {
       "name": "Refresh",
       "source_files": [
-        "YNCommonTools/YNRefresh{Component,Configuration,Footer,Header,NormalFooter,NormalHeader}.{h,m}",
-        "YNCommonTools/UIScrollView+{YNExtension,YNRefreshExtension}.{h,m}"
+        "YNCommonTools/YNRefreshNormalFooter.{h,m}",
+        "YNCommonTools/YNRefreshNormalHeader.{h,m}",
+        "YNCommonTools/YNRefreshConfig.{h,m}"
       ],
       "public_header_files": [
-        "YNCommonTools/YNRefresh{Component,Configuration,Footer,Header,NormalFooter,NormalHeader}.h",
-        "YNCommonTools/UIScrollView+{YNExtension,YNRefreshExtension}.h"
+        "YNCommonTools/YNRefreshNormalFooter.h",
+        "YNCommonTools/YNRefreshNormalHeader.h",
+        "YNCommonTools/YNRefreshConfig.h"
       ]
     },
     {
       "name": "Module",
-      "source_files": "YNCommonTools/YN{TextField,TextView}.{h,m}",
-      "public_header_files": "YNCommonTools/YN{TextField,TextView}.h"
+      "source_files": [
+        "YNCommonTools/TWTextInputView.{h,m}",
+        "YNCommonTools/WSDatePickerView.{h,m}",
+        "YNCommonTools/YNButton.{h,m}"
+      ],
+      "public_header_files": [
+        "YNCommonTools/TWTextInputView.h",
+        "YNCommonTools/WSDatePickerView.h",
+        "YNCommonTools/YNButton.h"
+      ],
+      "dependencies": {
+        "YNCommonTools/Catetory": [
+
+        ]
+      }
+    },
+    {
+      "name": "Base",
+      "source_files": [
+        "YNCommonTools/YNAppDelegate.{h,m}",
+        "YNCommonTools/YNBaseViewController.{h,m}"
+      ],
+      "public_header_files": [
+        "YNCommonTools/YNAppDelegate.h",
+        "YNCommonTools/YNBaseViewController.h"
+      ]
     }
   ]
 }
